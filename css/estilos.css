@@ -152,7 +152,8 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 200px 400px;
-  grid-template-areas: "a1 a1 a1" "a2 a3 a4";
+  grid-template-areas: "a1 a1 a1"
+ "a2 a3 a4";
   margin: 2%; }
 
 #titulo_grid {
@@ -217,7 +218,8 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 0.7fr;
-  grid-template-areas: "c1 c2" "c3 c3";
+  grid-template-areas: "c1 c2"
+ "c3 c3";
   margin: 2%;
   background-color: #c2c2da; }
 
@@ -368,7 +370,10 @@ h3 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 1fr 1fr 1fr;
-    grid-template-areas: "a1" "a2" "a3" "a4";
+    grid-template-areas: "a1"
+ "a2"
+ "a3"
+ "a4";
     margin: 1%; }
   #titulo_grid {
     display: flex;
@@ -404,7 +409,9 @@ h3 {
   #grid_ventas {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "c1" "c2" "c3"; }
+    grid-template-areas: "c1"
+ "c2"
+ "c3"; }
   #acc_grid_venta {
     grid-area: c3;
     display: flex;
