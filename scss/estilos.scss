@@ -1,0 +1,631 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/*---------------HEADER-----------------*/
+
+.img_logo{
+    height: calc(90px + 2vh);
+    width: calc(90px + 2vw);
+}
+
+.navbar{
+    padding: 0%;
+    background-image: linear-gradient(rgb(2, 19, 255), rgb(121, 175, 224));
+}
+
+.titulo_sitio{
+    font-size: calc(30px + 3vw);
+    color: rgb(2, 0, 146);
+    font-family: 'Righteous', cursive;
+    font-style: italic;
+}
+   
+.navegador{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    height: 20%;
+    margin-bottom: 3%;
+}
+
+.li_navegador{
+    color: rgb(2, 0, 146);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*---------------MAIN-----------------*/
+
+body{
+    background-color: rgb(220, 220, 233);
+}
+
+#grid_index{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 400px;
+    grid-template-areas:"a1 a1 a1"
+                        "a2 a3 a4";
+    margin: 2%;
+}
+
+#titulo_grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: a1;
+    padding-bottom: 2%;
+}
+
+#tv_grid{
+    grid-area: a3;
+    margin: 8%;
+}
+
+#tv_grid:hover{
+    transform: scale(1.2,1.2);
+}
+
+#mic_grid{
+    grid-area: a2;
+    padding: 5%;
+    margin: 8%;
+}
+
+#mic_grid:hover{
+    transform: scale(1.2,1.2);
+}
+
+#moni_grid{
+    grid-area: a4;
+    padding-top: 13%;
+    margin: 8%;
+}
+
+#moni_grid:hover{
+    transform: scale(1.2,1.2);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2%;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.card-body{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+.img_card{
+    height: 70%;
+    width: 100%;
+}
+
+.img_card_2{
+    height: 70%;
+    width: 70%;
+}
+
+.img_card_3{
+    height: 70%;
+    width: 80%;
+}
+
+.productos{
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+.quienes_somos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(194, 194, 218);
+    margin: 3%;
+    padding: 2%;
+}
+
+.span_quienes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: start;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+}
+
+#titulo_quienes{
+    margin-bottom: 5%;
+}
+
+.div_imagen_1{
+    width: 55%;
+}
+
+#imagen_1{
+    width: 100%;
+}
+
+.imagen_2{
+    width: 100%;
+}
+
+.cuerpo{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(194, 194, 218);
+    padding: 0%;
+    width: 94%;
+    margin: 3%;
+}
+
+.consulta_2{
+    text-align: center;
+    font-size: 150%;
+    border: 1px solid black;
+    padding: 5px;
+    width: 15%;
+    margin-bottom: 2%;
+}
+
+#haga_consulta{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+#grid_ventas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.7fr;
+    grid-template-areas:"c1 c2"
+                        "c3 c3";
+    margin: 2%;
+    background-color: rgb(194, 194, 218);
+}
+
+#cr_grid_venta{
+    grid-area: c1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2%;
+    border: 2px solid black;
+    padding: 10%;
+    background-color: white;
+    margin: 10%;
+}
+
+#tv_grid_venta{
+    grid-area: c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2%;
+    border: 2px solid black;
+    padding: 7%;
+    background-color: white;
+    margin: 10%;
+}
+
+#acc_grid_venta{
+    grid-area: c3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2%;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0%;
+}
+
+.imagen_3{
+    padding-top: 20px;
+    height: 90%;
+    width: 90%;
+}
+
+.imagen_4{
+    padding-top: 20px;
+    height: 50%;
+    width: 90%;
+}
+
+#cab_acc{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.imagen_5{
+    padding-top: 20px;
+    height: 70%;
+    width: 80%;
+}
+
+.consulta{
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    width: 15%;
+    margin-bottom: 2%;
+}
+
+#consulta_stock{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#mapa{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    width: 90%;
+}
+
+p{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1%;
+}
+
+h2{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 3%;
+    color: rgb(112, 187, 0);
+}
+
+#span_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+    margin-right: 5%;
+}
+
+#div_form{
+    display: flex;
+    text-align: left;
+    width: 94%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    padding: 2%;
+    background-color: rgb(194, 194, 218);
+}
+
+form{
+    width: 60%;
+}
+
+textarea{
+	width:90%;
+	height: 150px;
+	resize:none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    font-size: 20px;
+}
+
+input{
+    font-size: 17px;
+}
+
+option{
+    font-size: 13px;
+}
+
+#enviar{
+    margin-top: 3%;
+    width: 70px;
+    height: 30px;
+}
+
+/*---------------FOOTER-----------------*/
+
+.img_logo_futer{
+    height: calc(50px + 2vh);
+    width: calc(50px + 2vw);
+}
+
+.futer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 20%;
+    background-image: linear-gradient(rgb(2, 19, 255), rgb(121, 175, 224));
+    color: rgb(2, 0, 146);
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+.img_futer{
+    display: flex;
+    align-items: center;
+}
+
+.span_futer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    height: 100%;
+}
+
+.contacto_futer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: rgb(2, 0, 146);
+    height: 75%;
+    padding: 0%;
+}
+
+.div_futer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1%;
+}
+
+.li_futer{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.redes_iconos{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.bi-facebook{
+    font-size: 25px;
+}
+
+.bi-twitter{
+    font-size: 25px;
+}
+
+.bi-instagram{
+    font-size: 25px;
+}
+
+#titulo_futer{
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+    font-style: italic;
+    color: rgb(2, 0, 146);
+}
+
+h3{
+    font-size: 25px;
+    margin-bottom: 3%;
+}
+
+/*---------------Queries-----------------*/
+
+@media only screen and (max-width: 576px){
+
+    /*---------------Header-----------------*/
+
+    .navegador{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        list-style-type: none;
+        height: 20%;
+        margin-bottom: 3%;
+    }
+
+    .li_navegador{
+        font-size: 20px;
+        margin: 2%;
+    }
+
+    /*---------------Index-----------------*/
+
+    #grid_index{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1fr 1fr 1fr;
+        grid-template-areas:"a1"
+                            "a2"
+                            "a3"
+                            "a4";
+        margin: 1%;
+    }
+
+    #titulo_grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        grid-area: a1;
+    }
+
+    .quienes_somos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: rgb(194, 194, 218);
+        margin: 3%;
+        padding: 2%;
+    }
+
+    .span_quienes{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 4%;
+    }
+    
+    .div_imagen_1{
+        width: 100%;
+    }
+
+    /*---------------Service-----------------*/
+
+    .imagen_2{
+        height: 150px;
+        width: 100%;
+    }
+
+    .consulta_2{
+        text-align: center;
+        font-size: 120%;
+        width: 35%;
+    }
+
+    /*---------------Ventas-----------------*/
+
+    #grid_ventas{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:"c1"
+                            "c2"
+                            "c3";
+    }
+    
+    #acc_grid_venta{
+        grid-area: c3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .imagen_4{
+        padding-top: 20px;
+        height: 50%;
+        width: 90%;
+    }
+
+    #cab_acc{
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+
+    .imagen_5{
+        padding-top: 20px;
+        height: 45%;
+        width: 80%;
+    }
+
+    .consulta{
+        width: 25%;
+    }
+
+    /*---------------Donde Estamos-----------------*/
+
+    #mapa{
+        margin-top: 5%;
+    }    
+
+    /*---------------Contacto-----------------*/
+
+    #div_form{
+        display: flex;
+        text-align: left;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #formulario{
+        margin-top: 10%;
+        width: 100%;
+    }
+    
+    #span_form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0%;
+    }
+    
+    form{
+        width: 92%;
+    }
+    
+    .cuadro_form{
+        width:100%;
+        height: 35px;
+    }
+    
+    #equipo{
+        width:100%;
+        height: 35px;
+    }
+    
+    textarea{
+        width:100%;
+        height:200px;
+        resize:none;
+    }
+    
+    label{
+        font-size: 20px;
+    }
+    
+    #enviar{
+        width: 90px;
+        height: 40px;
+    }
+
+}
