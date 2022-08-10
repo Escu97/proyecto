@@ -1,0 +1,70 @@
+.futer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 20%;
+    background-image: linear-gradient(rgb(2, 19, 255), rgb(121, 175, 224));
+    color: rgb(2, 0, 146);
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+.img_futer{
+    display: flex;
+    align-items: center;
+}
+
+.img_logo_futer{
+    height: calc(50px + 2vh);
+    width: calc(50px + 2vw);
+}
+
+.contacto_futer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: rgb(2, 0, 146);
+    height: 75%;
+    padding: 0%;
+}
+
+.div_futer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1%;
+}
+
+.li_futer{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.redes_iconos{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.bi-facebook{
+    font-size: 25px;
+}
+
+.bi-twitter{
+    font-size: 25px;
+}
+
+.bi-instagram{
+    font-size: 25px;
+}
+
+#titulo_futer{
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+    font-style: italic;
+    color: rgb(2, 0, 146);
+}
