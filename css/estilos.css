@@ -152,8 +152,7 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 200px 400px;
-  grid-template-areas: "a1 a1 a1"
- "a2 a3 a4";
+  grid-template-areas: "a1 a1 a1" "a2 a3 a4";
   margin: 2%; }
 
 #titulo_grid {
@@ -218,8 +217,7 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 0.7fr;
-  grid-template-areas: "c1 c2"
- "c3 c3";
+  grid-template-areas: "c1 c2" "c3 c3";
   margin: 2%;
   background-color: #c2c2da; }
 
@@ -299,58 +297,42 @@ h3 {
   color: #020092;
   padding-bottom: 2%;
   padding-top: 1%; }
+  .futer .img_futer {
+    display: flex;
+    align-items: center; }
+    .futer .img_futer .img_logo_futer {
+      height: calc(50px + 2vh);
+      width: calc(50px + 2vw); }
+  .futer .span_futer .contacto_futer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    list-style-type: none;
+    color: #020092;
+    height: 75%;
+    padding: 0%; }
+    .futer .span_futer .contacto_futer .li_futer {
+      font-size: 15px;
+      font-family: Georgia, 'Times New Roman', Times, serif; }
+  .futer .div_futer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1%; }
+    .futer .div_futer .redes_iconos {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      justify-content: space-evenly; }
+      .futer .div_futer .redes_iconos .bi-facebook {
+        font-size: 25px; }
+      .futer .div_futer .redes_iconos .bi-twitter {
+        font-size: 25px; }
+      .futer .div_futer .redes_iconos .bi-instagram {
+        font-size: 25px; }
 
-.img_futer {
-  display: flex;
-  align-items: center; }
-
-.img_logo_futer {
-  height: calc(50px + 2vh);
-  width: calc(50px + 2vw); }
-
-.contacto_futer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  list-style-type: none;
-  color: #020092;
-  height: 75%;
-  padding: 0%; }
-
-.div_futer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-left: 1%; }
-
-.li_futer {
-  font-size: 15px;
-  font-family: Georgia, 'Times New Roman', Times, serif; }
-
-.redes_iconos {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  justify-content: space-evenly; }
-
-.bi-facebook {
-  font-size: 25px; }
-
-.bi-twitter {
-  font-size: 25px; }
-
-.bi-instagram {
-  font-size: 25px; }
-
-#titulo_futer {
-  font-size: 40px;
-  font-family: 'Righteous', cursive;
-  font-style: italic;
-  color: #020092; }
-
-/*---------------Queries-----------------*/
 @media only screen and (max-width: 576px) {
   /*---------------Header-----------------*/
   .navegador {
@@ -370,10 +352,7 @@ h3 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.5fr 1fr 1fr 1fr;
-    grid-template-areas: "a1"
- "a2"
- "a3"
- "a4";
+    grid-template-areas: "a1" "a2" "a3" "a4";
     margin: 1%; }
   #titulo_grid {
     display: flex;
@@ -409,9 +388,7 @@ h3 {
   #grid_ventas {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "c1"
- "c2"
- "c3"; }
+    grid-template-areas: "c1" "c2" "c3"; }
   #acc_grid_venta {
     grid-area: c3;
     display: flex;
