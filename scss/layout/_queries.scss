@@ -1,3 +1,5 @@
+@import "../variables/variables";
+
 @media only screen and (max-width: 576px){
 
     /*---------------Header-----------------*/
@@ -41,12 +43,7 @@
     }
 
     .quienes_somos{
-        display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        background-color: rgb(194, 194, 218);
-        margin: 3%;
-        padding: 2%;
     }
 
     .span_quienes{
@@ -92,10 +89,7 @@
         align-items: center;
         text-align: center;
         background-color: white;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 10%;
-        margin-bottom: 10%;
+        margin: 10%;
     }
 
     .imagen_4{

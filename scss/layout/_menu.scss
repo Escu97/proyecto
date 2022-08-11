@@ -1,6 +1,8 @@
+@import "../variables/variables";
+
 .navbar{
     padding: 0%;
-    background-image: linear-gradient(rgb(2, 19, 255), rgb(121, 175, 224));
+    background-image: $color_fondo;
 }
 
 .img_logo{

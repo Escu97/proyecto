@@ -1,9 +1,11 @@
+@import "../variables/variables";
+
 .futer{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     height: 20%;
-    background-image: linear-gradient(rgb(2, 19, 255), rgb(121, 175, 224));
+    background-image: $color_fondo;
     color: rgb(2, 0, 146);
     padding-bottom: 2%;
     padding-top: 1%;
@@ -26,7 +28,6 @@
             align-items: flex-start;
             flex-wrap: wrap;
             list-style-type: none;
-            color: rgb(2, 0, 146);
             height: 75%;
             padding: 0%;
 
@@ -50,15 +51,15 @@
             justify-content: space-evenly;
 
             .bi-facebook{
-                font-size: 25px;
+                font-size: $tam_icono;
             }
             
             .bi-twitter{
-                font-size: 25px;
+                font-size: $tam_icono;
             }
             
             .bi-instagram{
-                font-size: 25px;
+                font-size: $tam_icono;
             }
         }
     }

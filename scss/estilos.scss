@@ -1,8 +1,8 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 
-@import "variables";
-@import "generales";
-@import "grids";
-@import "menu";
-@import "footer";
-@import "queries";
+@import "variables/variables";
+@import "layout/generales";
+@import "layout/menu";
+@import "layout/grids";
+@import "layout/footer";
+@import "layout/queries";
