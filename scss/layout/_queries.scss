@@ -48,8 +48,8 @@
 
     .span_quienes{
         flex-direction: column;
-        text-align: center;
-        align-items: center;
+        text-align: start;
+        align-items: flex-start;
         width: 100%;
         margin-bottom: 4%;
     }
@@ -64,13 +64,7 @@
         height: 150px;
         width: 100%;
     }
-
-    .consulta_2{
-        text-align: center;
-        font-size: 120%;
-        width: 35%;
-    }
-
+    
     /*---------------Ventas-----------------*/
 
     #grid_ventas{
@@ -135,10 +129,11 @@
     }
     
     #span_form{
-        display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         width: 100%;
         margin: 0%;
+        padding: 0%;
     }
     
     form{

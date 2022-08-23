@@ -65,22 +65,32 @@
     text-align: center;
 }
 
-.img_card{
+.img_cards{
     height: 70%;
+}
+
+.img_card_1{
+    @extend .img_cards;
     width: 100%;
 }
 
 .img_card_2{
-    height: 70%;
+    @extend .img_cards;
     width: 70%;
 }
 
 .img_card_3{
-    height: 70%;
+    @extend .img_cards;
     width: 80%;
 }
 
 /*---------------Grid.Ventas-----------------*/
+
+@mixin img ($padding, $altura, $ancho){
+    padding-top: $padding;
+    height: $altura;
+    width: $ancho;
+}
 
 #grid_ventas{
     display: grid;
@@ -105,9 +115,7 @@
         margin: 10%;
 
         .imagen_3{
-            padding-top: 20px;
-            height: 90%;
-            width: 90%;
+            @include img(20px, 90%, 90%);
         }        
     }
 
@@ -125,9 +133,7 @@
         margin: 10%;
 
         .imagen_4{
-            padding-top: 20px;
-            height: 50%;
-            width: 90%;
+            @include img(20px, 50%, 90%);
         }
     }
 }
@@ -155,8 +161,6 @@
     }
 
     .imagen_5{
-        padding-top: 20px;
-        height: 70%;
-        width: 80%;
+        @include img(20px, 70%, 80%);
     }
 }
