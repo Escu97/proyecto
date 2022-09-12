@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap" rel="stylesheet">
     <title>FirstElectronica - Home</title>
     <meta name="description" content="Somos un servicio técnico especializado de TVs, LCD, LED, Microondas y todo tipo de electrodomesticos. Nos ubicamos en la zona de Recoleta, CABA.">
     <meta name="keywords" content="Service, PHILIPS, SAMSUNG, LG, service Smart TV, Recoleta, CABA, Reparacion, service TV, service LCD, service LED, service Microondas, Reparar, sin imagen, sin audio, TV usado, control remoto, reparacion de control">
@@ -17,53 +17,77 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img class="img_logo" src="img/logo.jpg" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        <a class="nav-link" aria-current="page" href="html/service.html">Service</a>
-                        <a class="nav-link" aria-current="page" href="html/ventas.html">Ventas</a>
-                        <a class="nav-link" aria-current="page" href="html/donde.estamos.html">Donde estamos</a>
-                        <a class="nav-link" aria-current="page" href="html/contactanos.html">Contactanos</a>
+              <a class="navbar-brand titulo_sitio" href="index.html"><img class="img_logo" src="img/logo.jpg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" aria-current="page" href="html/service.html">Service</a>
+                    <a class="nav-link" aria-current="page" href="html/ventas.html">Ventas</a>
+                    <a class="nav-link" aria-current="page" href="html/donde.estamos.html">Donde estamos</a>
+                    <a class="nav-link" aria-current="page" href="html/contactanos.html">Contactanos</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+            <div id="titulo_Index">
+                <div class="que_reparamos">
+                    <h2>¿Que reparamos?</h2>
+                    <p class="text_info">Nos especializamos en la reparacion de Televisores, Monitores, Microondas, Equipos de audio y Notebooks</p>
+                </div>
+            </div>
+                <div class="slider_index">
+                    <input type="radio" name="testimonial" id="t-1">
+                    <input type="radio" name="testimonial" id="t-2">
+                    <input type="radio" name="testimonial" id="t-3" checked>
+                    <input type="radio" name="testimonial" id="t-4">
+                    <input type="radio" name="testimonial" id="t-5">
+                    <div class="testimonials">
+                      <label class="item" for="t-1">
+                        <img src="img/parlante.jpg" alt="picture">
+                        <div class="card-body">
+                        <p class="card-text">Parlantes</p>
+                        </div>
+                      </label>
+                      <label class="item" for="t-2">
+                        <img src="img/monitor2.jpg" alt="picture">
+                        <div class="card-body">
+                        <p class="card-text">Monitores</p>
+                        </div>
+                      </label>
+                      <label class="item" for="t-3">
+                        <img src="img/lcd2.jpg" alt="picture">
+                        <div class="card-body">
+                        <p class="card-text">Televisores</p>
+                        </div>
+                      </label>
+                      <label class="item" for="t-4">
+                        <img src="img/microondas2.jpg" alt="picture">
+                        <p>Microondas</p>
+                      </label>
+                      <label class="item" for="t-5">
+                        <img src="img/notebook.jpg" alt="picture">
+                        <p>Notebooks</p>
+                      </label>
+                    </div>
+                    <div class="dots">
+                      <label for="t-1"></label>
+                      <label for="t-2"></label>
+                      <label for="t-3"></label>
+                      <label for="t-4"></label>
+                      <label for="t-5"></label>
                     </div>
                 </div>
-            </div>
-        </nav>
-    </header>
 
-    <main>
-        <div id="grid_index">
-            <div id="titulo_grid">
-                <h2>¡El mejor service de la capital!</h2>
-                <h2>¿Que reparamos?</h2>
-            </div>
-            <div class="card" id="mic_grid">
-                <img class="img_card_1" src="img/microondas.jpg" alt="">
-                <div class="card-body">
-                  <p class="card-text">Microondas</p>
-                </div>
-              </div>
-              <div class="card" id="tv_grid">
-                <img class="img_card_2" src="img/lcd.jpg" alt="">
-                <div class="card-body">
-                  <p class="card-text">Televisores</p>
-                </div>
-              </div>
-              <div class="card" id="moni_grid">
-                <img class="img_card_3" src="img/monitor.jpg" alt="">
-                <div class="card-body">
-                  <p class="card-text">Monitores</p>
-                </div>
-              </div>
-        </div>
         <div class="quienes_somos">
             <div class="span_quienes">
                 <h2 id="titulo_quienes">¿Quienes somos?</h2>
-                <p>Somos un servicio tecnico especializado integral dedicado a la reparación electrodomesticos.</p>
-                <p>Con mas de 30 años de experiencia en el mercado brindamos la mejor atención en CABA.</p>
+                <p class="text_info">Somos un servicio tecnico especializado integral dedicado a la reparación electrodomesticos.</p>
+                <p class="text_info">Con mas de 30 años de experiencia en el mercado brindamos la mejor atención en CABA.</p>
             </div>
             <div class="div_imagen_1">
                 <img id="imagen_1" src="img/expertos.jpg" alt="">
@@ -77,19 +101,15 @@
                 <img class="img_logo_futer" src="img/logo.jpg" alt="">
             </div>
             <span class="span_futer">
-                <h3>Contactanos</h3>
-                <ul class="contacto_futer">
-                    <li class="li_futer">Teléfono: 4825-1115</li>
-                    <li class="li_futer">Whatsapp: 11-6350-7770</li>
-                    <li class="li_futer">Dirección: Av. Santa Fe 2450 - Local 1</li>
-                </ul>
+                <p>©FirstElectronica.</p>
+                <p>Todos los derechos reservados</p>
             </span>
             <div class="div_futer">
                 <h3>Seguinos</h3>
                 <div class="redes_iconos">
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-twitter"></i>
-                    <i class="bi bi-instagram"></i>
+                    <a href="https://www.facebook.com/firstelectronica"><i class="bi bi-facebook"></i></a>
+                    <a href="https://twitter.com/firstelectroni2"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.instagram.com/firstelectronica/"><i class="bi bi-instagram"></i></a>
                 </div>
             </div>
         </div>

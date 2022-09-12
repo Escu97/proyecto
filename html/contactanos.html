@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap" rel="stylesheet">
     <title>FirstElectronica - Contacto</title>
     <meta name="description" content="Contactenos a traves de nuestro telefono: 4825-1115 o a traves de whatsapp: 11-6350-7770">
     <meta name="keywords" content="Service, PHILIPS, SAMSUNG, LG, service Smart TV, Recoleta, CABA, Reparacion, service TV, service LCD, service LED, service Microondas, Reparar, sin imagen, sin audio, TV usado, control remoto, reparacion de control">
@@ -35,43 +35,52 @@
     </header>
 
     <main>
-        <h2>CONTACTANOS</h2>
-            <div id="div_form">
-                <span id="span_form">
-                    <h2>Estamos para ayudarte!</h2>
-                    <p>Envianos tu consulta por el formulario o llamanos para una rapida respuesta.</p>
-                    <p>Telefono: 4825-1115</p>
-                    <p>Whatsapp: 11-6350-7770</p>
-                </span>
-                <form id="formulario">
-                    <div class="mb-3">
+        <div class="cuerpo_form">
+            <div class="texto_formulario">
+                <h2>CONTACTANOS</h2>
+                <div class="texto_informativo">
+                    <p class="text_info_2">Puede contactarnos via telefonica, whatsapp, mail o completando el formulario de contacto ubicado en nuestra pagina.</p>
+                    <p class="text_info_2">Estaremos encantados de responder sus consultas.</p>
+                </div>
+            </div>
+            </span>
+            <form id="formulario">
+                <div class="form_apynom">
+                    <div class="mb-3 form_nom">
                         <label for="formGroupExampleInput" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
                     </div>
-                    <div class="mb-3">
+                    <div class="mb-3 form_ap">
+                        <label for="formGroupExampleInput" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                    </div>
+                </div>
+                <div class="form_telymail">
+                    <div class="mb-3 form_tel">
                         <label for="formGroupExampleInput2" class="form-label">Teléfono</label>
                         <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
                     </div>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+                    <div class="mb-3 form_mail">
+                      <label for="exampleInputEmail1" class="form-label">Mail</label>
                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                     </div>
-                    <label for="exampleInputEmail1" class="form-label">Equipo</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Elija su opción</option>
-                        <option value="1">TV - LCD - LED</option>
-                        <option value="2">Monitor</option>
-                        <option value="3">Microondas</option>
-                        <option value="4">Consulta de stock</option>
-                    </select>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label" >Comentario</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Cuentenos sobre su consulta"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                  </form>
-            </div>
-        </main>
+                </div>
+                <label for="exampleInputEmail1" class="form-label">Equipo</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Elija su opción</option>
+                    <option value="1">TV - LCD - LED</option>
+                    <option value="2">Monitor</option>
+                    <option value="3">Microondas</option>
+                    <option value="4">Consulta de stock</option>
+                </select>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label" >Comentario</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Cuentenos sobre su consulta"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+        </div>
+    </main>
 
     <footer>
         <div class="futer">
@@ -79,19 +88,15 @@
                 <img class="img_logo_futer" src="../img/logo.jpg" alt="">
             </div>
             <span class="span_futer">
-                <h3>Contactanos</h3>
-                <ul class="contacto_futer">
-                    <li class="li_futer">Teléfono: 4825-1115</li>
-                    <li class="li_futer">Whatsapp: 11-6350-7770</li>
-                    <li class="li_futer">Dirección: Av. Santa Fe 2450 - Local 1</li>
-                </ul>
+                <p>©FirstElectronica.</p>
+                <p>Todos los derechos reservados</p>
             </span>
             <div class="div_futer">
                 <h3>Seguinos</h3>
                 <div class="redes_iconos">
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-twitter"></i>
-                    <i class="bi bi-instagram"></i>
+                    <a href="https://www.facebook.com/firstelectronica"><i class="bi bi-facebook"></i></a>
+                    <a href="https://twitter.com/firstelectroni2"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.instagram.com/firstelectronica/"><i class="bi bi-instagram"></i></a>
                 </div>
             </div>
         </div>

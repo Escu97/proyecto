@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap" rel="stylesheet">
     <title>FirstElectronica - Service</title>
     <meta name="description" content="Reparamos todo tipo de TVs de todas las marcas del mercado. Presupuestos aptos para cualquier seguro, EDENOR y EDESUR, retiros a domicilio sin cargo.">
     <meta name="keywords" content="Service, PHILIPS, SAMSUNG, LG, service Smart TV, Recoleta, CABA, Reparacion, service TV, service LCD, service LED, service Microondas, Reparar, sin imagen, sin audio, TV usado, control remoto, reparacion de control">
@@ -36,21 +37,108 @@
 
     <main>
         <div class="cuerpo">
-            <h2>¡Presupuestos sin cargo! ¡Y retiros a domicilio!</h2>
-            <span class="span_cuerpo">
-                <p>Reparacion de electrodomesticos</p>
-                <p class="productos"> TV - LCD - LED</p>
-                <p class="productos">Smart TV - Monitores</p>
-                <p class="productos">Microondas y Equipos de Audio</p>
-                <h2>TRABAJAMOS TODAS LAS MARCAS</h2>
-                <img class="imagen_2" src="../img/marcass.jpg" alt="">
-            </span>
-            <p>Utilizamos repuestos originales y brindamos una garantia de 3 meses a nuestros clientes</p>
-            <p>Hacemos presupuestos aptos para Edenor, Edesur y cualquier compañia de seguros</p>
-            <p>Retiro y entrega a domicilio sin cargo en toda CABA</p>
-            <div id="haga_consulta">
-                <button type="button" class="btn btn-light btn-lg btn-outline-dark"><a href="contactanos.html">Consultenos</a></button>
+            <h2>REPARAMOS TODAS LAS MARCAS</h2>
+            <p class="text_info">Trabajamos con repuestos originales</p>
+            <p class="text_info">Entregamos presupuestos oficiales aptos para cuarquier compañia de seguro, edenor o edesur</p>
+        </div>
+        <div class="slider_service">
+            <div class="slide-track">
+                <div class="slide">
+                </div>
+                <div class="slide">
+                    <img class="img_slide" src="../img/bgh.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img class="img_slide" src="../img/grundig.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img class="img_slide" src="../img/hitachi.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img class="img_slide" src="../img/lg.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img class="img_slide" src="../img/panasonic.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img class="img_slide" src="../img/philips.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img class="img_slide" src="../img/samsung.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img class="img_slide_sanyo" src="../img/sanyo.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img class="img_slide_sony" src="../img/sony.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img class="img_slide" src="../img/tophouse.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img class="img_slide_whirl" src="../img/whirlpool.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img class="img_slide" src="../img/aoc.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img class="img_slide" src="../img/jvc.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img class="img_slide" src="../img/kenbrown.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img class="img_slide" src="../img/philco.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img class="img_slide" src="../img/noblex.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img class="img_slide" src="../img/tcl.jpg" alt="" />
+                </div>
             </div>
+        </div>
+        <div id="grid_service">
+            <div id="grid_service_titulo">
+                <h2>Como trabajamos</h2>
+            </div>
+            <div id="grid_service_img1">
+                <img class="img_grid" src="../img/lcd_roto.jpg" alt="">
+            </div>
+            <div data-aos="fade-left" id="grid_service_contactenos">
+                <div class="grid_service_contactenos_interno">
+                    <h3>Contactenos</h3>
+                    <p class="text_info">Coordinaremos la visita a domicilio para revisar el equipo.</p>
+                </div>
+                <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div data-aos="fade-right" id="grid_service_presupuesto">
+                <i class="bi bi-tools"></i>
+                <div class="grid_service_presupuesto_interno">
+                    <h3>Presupuesto sin cargo</h3>
+                    <p class="text_info">Realizaremos un presupuesto para que usted sepa de antemano cuanto costara la reparación.</p>
+                </div>
+            </div>
+            <div id="grid_service_img2">
+                <img class="img_grid" src="../img/lcd_arreglado.jpg" alt="">
+            </div>
+            <div data-aos="fade-left" id="grid_service_retiro">
+                <div class="grid_service_retiro_interno">
+                    <h3>Retiro a domicilio</h3>
+                    <p class="text_info">Una vez aceptado el presupuesto retiraremos el equipo.</p>
+                </div>
+                <i class="bi bi-truck"></i>
+            </div>
+            <div data-aos="fade-right" id="grid_service_garantia">
+                <i class="bi bi-truck"></i>
+                <div class="grid_service_garantia_interno">
+                    <h3>Comodidad y Garantía</h3>
+                    <p class="text_info">Una vez reparado el equipo se le llamara para llevarle el equipo hasta su casa, tendra una garantia escrita de 3 meses.</p>
+                </div>
+            </div>
+        </div>
+        <div id="haga_consulta">
+            <button type="button" class="btn btn-light btn-lg btn-outline-dark"><a href="contactanos.html">Consultenos</a></button>
         </div>
     </main>
 
@@ -60,25 +148,25 @@
                 <img class="img_logo_futer" src="../img/logo.jpg" alt="">
             </div>
             <span class="span_futer">
-                <h3>Contactanos</h3>
-                <ul class="contacto_futer">
-                    <li class="li_futer">Teléfono: 4825-1115</li>
-                    <li class="li_futer">Whatsapp: 11-6350-7770</li>
-                    <li class="li_futer">Dirección: Av. Santa Fe 2450 - Local 1</li>
-                </ul>
+                <p>©FirstElectronica.</p>
+                <p>Todos los derechos reservados</p>
             </span>
             <div class="div_futer">
                 <h3>Seguinos</h3>
                 <div class="redes_iconos">
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-twitter"></i>
-                    <i class="bi bi-instagram"></i>
+                    <a href="https://www.facebook.com/firstelectronica"><i class="bi bi-facebook"></i></a>
+                    <a href="https://twitter.com/firstelectroni2"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.instagram.com/firstelectronica/"><i class="bi bi-instagram"></i></a>
                 </div>
             </div>
         </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 </html>

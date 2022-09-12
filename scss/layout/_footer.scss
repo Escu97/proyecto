@@ -21,27 +21,18 @@
     }
 
     .span_futer{
-        .contacto_futer{
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-            flex-wrap: wrap;
-            list-style-type: none;
-            height: 75%;
-            padding: 0%;
-
-            .li_futer{
-                font-size: 15px;
-                font-family: Georgia, 'Times New Roman', Times, serif;
-            }
-        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3%;
     }
 
     .div_futer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 2%;
     padding-left: 1%;
 
         .redes_iconos{
@@ -52,14 +43,18 @@
 
             .bi-facebook{
                 font-size: $tam_icono;
+                color: rgb(2, 0, 146);
             }
             
             .bi-twitter{
                 font-size: $tam_icono;
+                color: rgb(2, 0, 146);
             }
             
             .bi-instagram{
                 font-size: $tam_icono;
+                color: rgb(2, 0, 146);
+
             }
         }
     }

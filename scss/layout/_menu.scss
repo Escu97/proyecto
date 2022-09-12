@@ -1,13 +1,19 @@
 @import "../variables/variables";
 
+header{
+    position: sticky;
+    top: 0;
+    Z-Index: 999;
+}
+
 .navbar{
     padding: 0%;
     background-image: $color_fondo;
 }
 
 .img_logo{
-    height: calc(90px + 2vh);
-    width: calc(90px + 2vw);
+    height: calc(70px + 2vh);
+    width: calc(70px + 2vw);
 }
 
 .active{
